@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NEXORA — Digital Growth Studio</title>
+<title>DM LAB — Digital Growth Studio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
 <style>
@@ -45,14 +45,39 @@
     backdrop-filter: blur(14px);
     border-bottom: 1px solid var(--border);
   }
-  .logo {
+  /* LOGO STYLING */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.logo img {
+  height: 25px;
+  width: auto;
+  object-fit: contain;
+  max-width: 160px;
+  display: block;
+}
+
+.logo:hover {
+  opacity: 0.85;
+  transform: scale(1.02);
+}
+
+.logo:active {
+  transform: scale(0.98);
+}
+  /*.logo {
     font-family: var(--font-head);
     font-weight: 800;
     font-size: 1.3rem;
     letter-spacing: 0.12em;
     color: var(--text);
     text-decoration: none;
-  }
+  }*/
   .logo span { color: var(--teal); }
   .nav-links { display: flex; gap: 2.5rem; list-style: none; }
   .nav-links a {
@@ -627,7 +652,7 @@
 <body>
 
 <nav>
-  <a href="#" class="logo">NEX<span>O</span>RA</a>
+  <a href="#" class="logo"><img src="images/LOGO.png" alt="DM LAB Logo"></a>
   <ul class="nav-links">
     <li><a href="#services">Services</a></li>
     <li><a href="#testimonials">Testimonials</a></li>
@@ -644,7 +669,7 @@
     <div class="hero-badge">Available for new projects</div>
     <h1>We grow brands<br>with <em>strategy</em><br>& precision.</h1>
     <p class="hero-sub">
-      Nexora is a digital growth studio helping businesses stand out online — through smart marketing, compelling design, and content that converts.
+      DM LAB is a digital growth studio helping businesses stand out online — through smart marketing, compelling design, and content that converts.
     </p>
     <div class="hero-actions">
       <a href="#contact" class="btn-primary">Let's talk</a>
@@ -731,7 +756,7 @@
 
     <div class="testimonial-card">
       <div class="agency-logo-wrap">
-        <img src="/images/ek.jpg" class="agency-logo" alt="EK Travel & Tours">
+        <img src="images/ek.jpg" class="agency-logo" alt="EK Travel & Tours">
       </div>
       <span class="quote-mark">"</span>
       <div class="stars">
@@ -740,7 +765,7 @@
       <p class="testimonial-text">Before working with him, our social media was inconsistent and getting almost no engagement. Within the first month, our Instagram reach doubled and we started getting direct booking inquiries through DMs. What stood out was that he actually understood our audience — the content felt genuine, not generic. Hands down the best decision we made for our online presence.</p>
       <div class="testimonial-author">
         <div class="author-avatar">
-          <img src="/images/ek.jpg" alt="EK Travel & Tours">
+          <img src="images/ek.jpg" alt="EK Travel & Tours">
         </div>
         <div>
           <div class="author-name">EK Travel & Tours</div>
@@ -752,7 +777,7 @@
 
     <div class="testimonial-card">
       <div class="agency-logo-wrap">
-        <img src="/images/synergy.png" class="agency-logo" alt="Synergy Travel & Tours">
+        <img src="images/synergy.png" class="agency-logo" alt="Synergy Travel & Tours">
       </div>
       <span class="quote-mark">"</span>
       <div class="stars">
@@ -761,7 +786,7 @@
       <p class="testimonial-text">We had an outdated website that was losing us customers. He redesigned our entire site in under two weeks — clean, fast, and actually built to convert visitors into bookings. He explained every decision he made, which gave us full confidence in the result. We saw a noticeable increase in online inquiries within the first 30 days of launch.</p>
       <div class="testimonial-author">
         <div class="author-avatar">
-          <img src="/images/synergy.png" alt="Synergy Travel & Tours">
+          <img src="images/synergy.png" alt="Synergy Travel & Tours">
         </div>
         <div>
           <div class="author-name">Synergy Travel & Tours</div>
@@ -804,12 +829,12 @@
 <section id="about">
   <div class="about-inner">
     <div class="about-visual">
-     <img src="/images/digital-marketing-skills.webp" alt="Marketing team">
+     <img src="images/digital-marketing-skills.webp" alt="Marketing team">
     </div>
     <div class="about-text">
       <div class="section-label">Who we are</div>
       <h2>Small team.<br>Big ambition.</h2>
-      <p>Nexora is a lean digital studio founded on the belief that small businesses deserve the same quality of marketing and web presence as big brands — without the big agency price tag.</p>
+      <p>DM LAB is a lean digital studio founded on the belief that small businesses deserve the same quality of marketing and web presence as big brands — without the big agency price tag.</p>
       <p>We combine technical knowledge with marketing strategy to deliver work that's not just pretty, but purposeful.</p>
       <div class="skills-list">
         <span class="skill-pill">Marketing Strategy</span>
@@ -830,7 +855,7 @@
 
     <div class="work-card">
       <div class="work-visual">
-        <img src="/images/Juiciana Club (2).png" alt="Juiciana Club logo">
+        <img src="images/Juiciana Club (2).png" alt="Juiciana Club logo">
       </div>
       <div class="work-content">
         <div class="work-tag-row">
@@ -841,11 +866,11 @@
         <h3>Juiciana Club — Brand Identity & Guidelines</h3>
         <p>A complete 21-page brand identity system for a fictional beverage brand, covering a full logo system (primary, monogram, and badge versions), a defined color palette and typography pairing, brand voice and tone, and a custom mascot character — all unified into one cohesive visual language.</p>
         <div class="work-actions">
-          <a href="/images/Juiciana Club Brand Guidelines (1).pdf" target="_blank" class="btn-primary">View full PDF →</a>
-          <a href="/images/URBAN.png" target="_blank" class="btn-secondary">View moodboard</a>
-          <a href="/images/Juiciana Club Brand Guidelines (1).pdf" download class="btn-secondary">Download</a>
-          <a href="/images/juiciana-club-ads-1.jpg" target="_blank" class="btn-secondary">Ad — Honey Campaign</a>
-          <a href="/images/juiciana-club-ads-2.jpg" target="_blank" class="btn-secondary">Ad — Clean Week</a>
+          <a href="images/Juiciana Club Brand Guidelines (1).pdf" target="_blank" class="btn-primary">View full PDF →</a>
+          <a href="images/URBAN.png" target="_blank" class="btn-secondary">View moodboard</a>
+          <a href="images/Juiciana Club Brand Guidelines (1).pdf" download class="btn-secondary">Download</a>
+          <a href="images/juiciana-club-ads-1.jpg" target="_blank" class="btn-secondary">Ad — Honey Campaign</a>
+          <a href="images/juiciana-club-ads-2.jpg" target="_blank" class="btn-secondary">Ad — Clean Week</a>
         </div>
       </div>
     </div>
@@ -892,7 +917,7 @@
 </section>
 
 <footer>
-  <p>© 2025 Nexora Studio. All rights reserved.</p>
+  <p>© 2025 DM LAB Studio. All rights reserved.</p>
   <div class="footer-links">
     <a href="#services">Services</a>
     <a href="#about">About</a>
